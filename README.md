@@ -52,6 +52,17 @@
       text-decoration: none;
       font-weight: bold;
     }
+    .email-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff69b4;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 10px;
+    }
     form {
       background: white;
       padding: 20px;
@@ -102,11 +113,12 @@
       </div>
     </div>
     <a class="instagram-button" href="https://www.instagram.com/milenas_shop/?igsh=enhyZnljazhvYzRr#" target="_blank">Follow on Instagram</a>
+    <a class="email-button" href="mailto:mimikataie@gmail.com,bichr0202@gmail.com" target="_blank">Contact Us via Gmail</a>
   </div>
 
   <div class="section">
     <h2>Place an Order</h2>
-    <form action="mailto:bichr0202@gmail.com,mimikataie@gmail.com" method="POST" enctype="text/plain">
+    <form action="#" method="POST">
       <input type="text" name="Name" placeholder="Your name" required>
       <input type="email" name="Email" placeholder="Your email" required>
       <textarea name="Order Details" placeholder="Which bracelet would you like to order?" required></textarea>
