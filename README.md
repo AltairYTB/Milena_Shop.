@@ -1,63 +1,117 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Commande</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #FFC0CB;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-        }
-        .logo {
-            width: 100px;
-            margin: 20px;
-        }
-        .photo-slot {
-            width: 200px;
-            height: 200px;
-            background-color: white;
-            margin: 10px auto;
-            border-radius: 10px;
-        }
-        .btn-follow {
-            display: block;
-            margin: 20px auto;
-            padding: 10px;
-            background-color: #FF69B4;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .panier {
-            background-color: white;
-            padding: 10px;
-            border-radius: 5px;
-            width: 50%;
-            margin: auto;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milena_Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffe6f0;
+      color: #333;
+    }
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: white;
+    }
+    .section {
+      padding: 30px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .instagram-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff85c1;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="logo.png" alt="Logo" class="logo">
-        <h1>Bienvenue sur notre boutique</h1>
-        
-        <div class="photo-slot"></div>
-        <div class="photo-slot"></div>
-        
-        <button class="btn-follow" onclick="window.location.href='https://www.instagram.com/toncompte/'">Suivre sur Instagram</button>
-        
-        <h2>Panier</h2>
-        <div class="panier">
-            <p>Votre panier est vide.</p>
-        </div>
+  <header>
+    <h1>Milena_Shop</h1>
+  </header>
+
+  <div class="section">
+    <h2>Our Bracelets</h2>
+    <div class="products">
+      <!-- Replace with real photos -->
+      <div class="product">
+        <img src="bracelet1.jpg" alt="Bracelet 1">
+        <h3>Pink Bracelet</h3>
+        <p>€15</p>
+      </div>
+      <div class="product">
+        <img src="bracelet2.jpg" alt="Bracelet 2">
+        <h3>Beaded Bracelet</h3>
+        <p>€18</p>
+      </div>
     </div>
+    <a class="instagram-button" href="https://www.instagram.com/milenas_shop/?igsh=enhyZnljazhvYzRr#" target="_blank">Follow on Instagram</a>
+  </div>
+
+  <div class="section">
+    <h2>Place an Order</h2>
+    <form action="mailto:bichr0202@gmail.com,mimikataie@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Your name" required>
+      <input type="email" name="Email" placeholder="Your email" required>
+      <textarea name="Order Details" placeholder="Which bracelet would you like to order?" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
 </body>
 </html>
