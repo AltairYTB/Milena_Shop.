@@ -113,7 +113,8 @@
       </div>
     </div>
     <a class="instagram-button" href="https://www.instagram.com/milenas_shop/?igsh=enhyZnljazhvYzRr#" target="_blank">Follow on Instagram</a>
-    <a class="email-button" href="mailto:mimikataie@gmail.com,bichr0202@gmail.com" target="_blank">Contact Us via Gmail</a>
+    <a class="email-button" href="https://mail.google.com/mail/?view=cm&fs=1&to=milenashop115@gmail.com
+" target="_blank">Contact Us via Gmail</a>
   </div>
 
   <div class="section">
