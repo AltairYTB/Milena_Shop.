@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -108,6 +108,25 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+    footer {
+      background-color: #ffb6c1;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      color: white;
+    }
+    footer p {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .how-it-works {
+      background-color: #fff;
+      padding: 30px;
+      margin-top: 30px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
@@ -155,6 +174,7 @@
       <form action="https://formspree.io/f/xaneljap" method="POST">
         <input type="text" name="Name" placeholder="Your name" required>
         <input type="email" name="Email" placeholder="Your email" required>
+        <input type="text" name="Address" placeholder="Your address" required> <!-- Added Address field -->
         <textarea name="Order Details" placeholder="Which bracelet would you like to order?" required></textarea>
         <input type="text" name="Instagram or TikTok" placeholder="Your Instagram or TikTok handle" required>
         <!-- New input field for color preferences -->
@@ -169,6 +189,17 @@
     <h2>About Us</h2>
     <p>Milena_Shop is a small business dedicated to creating high-quality, beautiful bracelets for all occasions. Our goal is to provide unique and stylish accessories that will make you feel special. We value craftsmanship and attention to detail, ensuring that each piece is designed with care.</p>
   </div>
+
+  <!-- "How it Works" Section -->
+  <div class="how-it-works">
+    <h2>How It Works</h2>
+    <p>Once you submit your order, we will get back to you via email, Instagram, or TikTok with all the details. You can ask any questions, confirm your order, and finalize the design. For payment, we use Stripe, ensuring a secure and smooth transaction process.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Milena_Shop | All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
