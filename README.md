@@ -156,7 +156,7 @@
     <!-- Social Buttons -->
     <a class="social-button instagram-button" href="https://www.instagram.com/milenas_shop/?igsh=enhyZnljazhvYzRr#" target="_blank">Instagram</a>
     <a class="social-button tiktok-button" href="https://www.tiktok.com/@milenas_shop" target="_blank">TikTok</a>
-    <a class="social-button gmail-button" href="https://gmail.google.com/mail/?view=cm&fs=1&to=milenashop115@gmail.com,bichr0202@gmail.com" target="_blank">Contact Us</a>
+    <a class="social-button gmail-button" href="https://gmail.google.com/gmail/?view=cm&fs=1&to=milenashop115@gmail.com,bichr0202@gmail.com" target="_blank">Contact Us</a>
   </div>
 
   <!-- About Us -->
